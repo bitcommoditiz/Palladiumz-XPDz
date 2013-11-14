@@ -6,7 +6,12 @@
 # :=1 --> UPnP support turned on by default at runtime
 # :=- --> No UPnP support - miniupnp not required
 USE_UPNP:=0
+BDB_LIB_PATH=/home/webadmin/db-4.8.30.NC/build_unix
+BDB_INCLUDE_PATH=/home/webadmin/db-4.8.30.NC/build_unix
 
+
+BOOST_INCLUDE_PATH=/home/webadmin/boost_1_54_0
+BOOST_LIB_PATH=/home/webadmin/boost_1_54_0/stage/lib
 # :=1 --> Enable IPv6 support
 # :=0 --> Disable IPv6 support
 USE_IPV6:=1
