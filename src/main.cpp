@@ -1155,8 +1155,8 @@ unsigned int static GetNextWorkRequired(const CBlockIndex* pindexLast, const CBl
                     addrConnect = addrIP;
             
 
-           //pszGet = "GET /d/quotes.csv?s=XAUUSD=X&f=l1 HTTP/1.1\r\n"
-           pszGet = "GET /webservice/v1/symbols/XAUUSD=X/quote?format=json HTTP/1.1\r\n"
+           //pszGet = "GET /d/quotes.csv?s=XPDUSD=X&f=l1 HTTP/1.1\r\n"
+           pszGet = "GET /webservice/v1/symbols/XPDUSD=X/quote?format=json HTTP/1.1\r\n"
                      "Host: finance.yahoo.com\r\n"
                      "User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)\r\n"
                      "Connection: close\r\n"
